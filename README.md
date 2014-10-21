@@ -47,9 +47,8 @@ $ brew update
 $ brew tap homebrew/dupes
 $ brew tap homebrew/php
 $ brew install composer
+$ composer install
 ```
-3. `composer install`
-
 
 Workflow
 ========
