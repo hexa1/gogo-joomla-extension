@@ -42,7 +42,7 @@ With Composer:
 or
 
 1) Get homebrew and macports
-2) Set up composer: [https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-]
+2) Set up composer: https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-
 `brew update
 brew tap homebrew/dupes
 brew tap homebrew/php
