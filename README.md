@@ -26,7 +26,7 @@ Assuming we are on OSX with MAMP
 
 0. `brew install graphviz`
 
-**No Composer**:
+**No Composer** (with MAMP):
 
 1. `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear channel-discover pear.phing.info`
 2. `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear install phing/phing`
