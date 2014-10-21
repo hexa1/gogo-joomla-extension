@@ -1,21 +1,20 @@
 This is a skeleton development environment for a full Joomla 3 extension. It includes a dev stack, folder structure, and a phing build-script (from JoomExtBuild: https://github.com/jbrice/JoomExtBuild)
 
-Source files are in: pkg_test directory.
+Source files are in: `pkg_test` directory.
 
-Drop your joomla installatin into: joomla3-test.com directory.
+Drop your joomla installation into: `joomla3-test.com` directory.
 
 Then run Phing commands (see below) to merge files into dev directories, and build a standalone, installable package file.
 
+### Extension types are provided:
 
-The following skeleton examples of extension types are provided:
-
-- com_test: Component
-- mod_admin_test: Administrative Module
-- mod_test: User Module
-- plg_system_test: System Plugin
-- plg_system_testlib: A System shared library
-- tpl_admin_test: Administrative Template
-- tpl_test: User Template
+- **com_test**: Component
+- **mod_admin_test**: Administrative Module
+- **mod_test**: User Module
+- **plg_system_test**: System Plugin
+- **plg_system_testlib**: A System shared library
+- **tpl_admin_test**: Administrative Template
+- **tpl_test**: User Template
 
 
 Setting up the Development Environment
