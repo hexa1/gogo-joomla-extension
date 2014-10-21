@@ -64,5 +64,5 @@ Workflow
 Useful Links
 ============
 
-()[http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Developing_a_Basic_Component]
-[http://docs.joomla.org/Using_own_library_in_your_extensions]
+http://docs.joomla.org/J3.x:Developing_a_MVC_Component/Developing_a_Basic_Component
+http://docs.joomla.org/Using_own_library_in_your_extensions
