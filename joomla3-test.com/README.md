@@ -1,0 +1,1 @@
+Place your Joomla 3 installation here.

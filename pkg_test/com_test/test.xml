@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    version="3.0"
+    type="component"
+    method="upgrade"
+    >
+    <name>Test</name>
+    <author>Your Name</author>
+    <creationDate>2014-Oct-03</creationDate>
+    <copyright>(C) 2014. All rights reserved.</copyright>
+    <license>Private</license>
+    <authorEmail>author@example.com</authorEmail>
+    <authorUrl>http://example.com</authorUrl>
+    <version>0.0.1</version>
+    <description>Test Module</description>
+
+    <!-- <scriptfile>file.script.php</scriptfile>  -->
+
+    <!-- SQL Files -->
+    <!-- Note: SQL Support added in 1.6 for modules and plugins -->
+    <install> <!-- Runs on install -->
+        <!--
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    -->
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <!--
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    -->
+    </uninstall>
+    <update> <!-- Runs on update -->
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+
+    <languages>
+        <!--
+        <language
+            tag="en-GB">en-GB.mod_alpha.ini</language>-->
+    </languages>
+
+    <!--
+    <media destination="com_test">
+       <filename>com_alpha.jpg</filename>
+    </media>
+    -->
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>test.php</filename>
+        <!-- <folder>test</folder> -->
+    </files>
+
+    <administration>
+        <!-- Administrator Menu -->
+
+        <!--
+        <menu img="components/com_alpha/applications-internet-16.png">Alpha</menu>
+        -->
+
+        <menu>Test</menu>
+
+        <submenu>
+            <menu link="option=com_installer">Installer</menu>
+            <menu link="option=com_users">Users</menu>
+        </submenu>
+
+        <!-- Administrator file and language specification;
+            Note: administrator doesn't have media -->
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>test.php</filename>
+            <folder>sql</folder>
+        </files>
+
+
+        <!-- Legacy 1.5 Language Support -->
+        <!-- Note: Replace this with the actual path to the language file -->
+        <!--
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_alpha.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_alpha.sys.ini</language>
+        </languages>
+        -->
+    </administration>
+
+    <!-- Extension Update Specification -->
+    <updateservers>
+        <server type="extension" priority="1" name="Extension Update Site">http://jsitepoint.com/update/components/com_alpha/extension.xml</server> <!-- useful for single extensions -->
+        <server type="collection" priority="2" name="Collection Update Site">http://jsitepoint.com/update/update.xml</server><!-- useful for collections of extensions -->
+    </updateservers>
+
+    <!-- Tables -->
+    <!-- These are used for backups to determine which tables to backup; ones marked optional are only backed up if they exist -->
+
+    <tables>
+        <table>#__test_install</table>
+        <table type="optional">#__test_update</table>
+    </tables>
+
+    <!--  Dependencies -->
+    <dependencies>
+        <dependency type="platform" name="joomla" operator=">" version="3.0" />
+    </dependencies>
+</extension>

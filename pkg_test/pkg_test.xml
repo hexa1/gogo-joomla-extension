@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+  <name>Test Package</name>
+  <author>Your Name</author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <creationDate>2014-Oct-03</creationDate>
+  <copyright></copyright>
+  <license></license>
+  <packagename>test</packagename>
+  <version>0.0.1</version>
+  <url>http://www.example.com/</url>
+  <packager>Test Package Team</packager>
+  <packagerurl>http://example.com/package</packagerurl>
+  <description>Example package to combine multiple extensions</description>
+  <update>http://www.example.com/update</update>
+  <files folder="extensions">
+    <!--
+    Note: the id comes from the element's manifest section:
+      <files>
+      <filename module="mod_test">mod_test.php</filename>
+      </files>
+
+      ... the file id would be "mod_test"
+
+      or the package name in the element's top level folder
+      Diregard the _admin designation: for mod_admin_test1, the id=mod_test1
+    -->
+    <file type="module" id="mod_test" client="site">mod_test.zip</file>
+    <file type="component" id="com_test" client="administrator">com_test.zip</file>
+    <file type="plugin" group="system" id="test">plg_system_test.zip</file>
+    <file type="module" client="administrator" id="mod_test">mod_admin_test.zip</file>
+    <file type="template" id="test" client="site">tpl_test.zip</file>
+    <file type="template" id="test" client="administrator">tpl_admin_test.zip</file>
+    <!-- System Library -->
+    <file type="plugin" group="system" id="testlib">plg_system_testlib.zip</file>
+  </files>
+</extension>

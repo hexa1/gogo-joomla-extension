@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="Doc Title" version="2.7.0">
+  <partials/>
+  <file path="mod_test/mod_test.php" generated-path="mod_test.mod_test.html" hash="e59ca121bc15bb0a77bacc9029936179" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODi4kpNzshXUApJLS5R8M1PKc1JVUjOzytJzSvR09NTsubisrcDABVQDHw=</source>
+  </file>
+  <file path="mod_admin_test/mod_test.php" generated-path="mod_admin_test.mod_test.html" hash="14e24a38b5ee0bac2396cd0dbf288060" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODi4rK3AwAOxQJf</source>
+  </file>
+  <file path="com_test/admin/test.php" generated-path="com_test.admin.test.html" hash="59138bdbc61649d8542fbd345efe2f38" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODiSk3OyFdQCi1ISSxJTVFITMnNzFMoSS0u0QPKKllzcdnbAQAWfwzt</source>
+  </file>
+  <file path="plg_system_testlib/testlib.php" generated-path="plg_system_testlib.testlib.html" hash="7bda0a23567974bf12446150c3dfff1f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+      <tag name="copyright" line="0" description="Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved."/>
+      <tag name="license" line="0" description="GNU General Public License version 2 or later."/>
+    </docblock>
+    <class final="false" abstract="false" namespace="" line="15" package="Joomla.plugin\System.Testlib">
+      <extends>\JPlugin</extends>
+      <name>plgSystemTestlib</name>
+      <full_name>\plgSystemTestlib</full_name>
+      <docblock line="15">
+        <description>Mylib plugin class.</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="Joomla.plugin"/>
+        <tag name="subpackage" line="15" description="System.Testlib"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="" line="27" package="Joomla.plugin\System.Testlib">
+        <name>onAfterInitialise</name>
+        <full_name>\plgSystemTestlib::onAfterInitialise()</full_name>
+        <docblock line="27">
+          <description>Method to register custom library.</description>
+          <long-description></long-description>
+          <tag name="see" line="27" description="Now you will be able to call classes from your library&#10;(located in /libraries/testlib) from any component, module or plugin.&#10;Example: MyLib\User\UserHelper class must be located in&#10;LIBROOT/src/MyLib/User/UserHelper.php&#10;&#10;return  void" link="http://docs.joomla.org/Using_own_library_in_your_extensions"/>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyVU01PGzEQve+vmFsSRHcpVS+hUklRCkGBRBAkDpVWjj3ZuPXaK9sLRBX/vWN7N0DbC3vYr5n35vnNzJevzbbJioODDA7glJtmZ2W19QBwtn8fno3g+OjoM3ygx8dPsGhQw61pLUe4Yt6jdYcw0zyHiVIQMQ4sOrQPKPJIrCRH7RDCdX59B+eo0TIFy3ZNIZh34QeikkbDMRgLihFzgBdZJnAjNYrhoLyc3k/PBqOQICSeZL32q52Sa2hUW0kNXDHnAjQWbxj/xapU/NKYWrE85cWoa9f7hNud81jnK3Se2GLpSEW8VYp1IcAnj1o4uFwmpt9ZYI9awkV60G+NAG/IiUoS1AJvnTc1ENwyu8v7zFOHCFvvm3FRCMNd/jNpNLYq7pzUVWkeddmhSqnLHVlfRgHBLNfzXJtHoBA8SurCGoGtFYb6nNF3PAY62FhSEAh6GT16qAwnwwWQfUWKSXSFT+cdJSDTO+CmboxG7Q+hNqKlGtSK5Of+SNMnVjcKx9SVuVz/uKNRiLcLVE0wInpakx1B50vhHj6ffbtZLFaFs7yIDEUAFy8MeRjalNxjLPrWaoAHI0X3r4jPJo3YptXch9kyerKhbsy09JIp6XA4inmpg6mL+9elpcF7CoWvjMDORnBb0yrxVjssJ6uLcrUolzfT77P7og2K6wB6EfuG8L1c4faGakFNdLQ31ChD8xgdd+NsH48b8Y/r/633quF1QKWK27+8fs35frZ/9Hf9iVs5N0ygHY/7XUk2DQfdug0OadGCJ2EyJjez6S3kMOiHczA6iUzP2fMfzT+HNQ==</source>
+  </file>
+  <file path="tpl_test/index.php" generated-path="tpl_test.index.html" hash="bc23ed0c7ffb0d43ad96988c4e0e955d" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODiSk3OyFdQ8sxLSa1QcMvMSVWy5uKytwMAgr8IPw==</source>
+  </file>
+  <file path="tpl_admin_test/index.php" generated-path="tpl_admin_test.index.html" hash="d41d8cd98f00b204e9800998ecf8427e" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+  </file>
+  <file path="com_test/site/test.php" generated-path="com_test.site.test.html" hash="14e24a38b5ee0bac2396cd0dbf288060" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODi4rK3AwAOxQJf</source>
+  </file>
+  <file path="plg_system_test/test.php" generated-path="plg_system_test.test.html" hash="e40ef5265dd4213fdcbfeb0735e1b8b0" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKODisrcDAAzPAlU=</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="Joomla.plugin" full_name="Joomla.plugin">
+    <package name="System.Testlib" full_name="Joomla.plugin\System.Testlib"/>
+  </package>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>

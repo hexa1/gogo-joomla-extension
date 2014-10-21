@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phing/phing": "2.8.2",
+        "phpdocumentor/phpdocumentor": "2.7.0"
+    }
+}
