@@ -9,13 +9,13 @@ Then run Phing commands (see below) to merge files into dev directories, and bui
 
 The following skeleton examples of extension types are provided:
 
-com_test| Component
-mod_admin_test| Administrative Module
-mod_test| User Module
-plg_system_test| System Plugin
-plg_system_testlib| A System shared library
-tpl_admin_test| Administrative Template
-tpl_test|User Template
+- com_test: Component
+- mod_admin_test: Administrative Module
+- mod_test: User Module
+- plg_system_test: System Plugin
+- plg_system_testlib: A System shared library
+- tpl_admin_test: Administrative Template
+- tpl_test: User Template
 
 
 Setting up the Development Environment
