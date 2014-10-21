@@ -23,49 +23,40 @@ Setting up the Development Environment
 
 Assuming we are on OSX with MAMP
 
-All:
+**All**:
 
 0) `brew install graphviz`
 
-No Composer:
+**No Composer**:
 
-1) `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear channel-discover pear.phing.info`
+1. `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear channel-discover pear.phing.info`
+2. `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear install phing/phing`
+3. `sudo ln -s /Applications/MAMP/bin/php/php5.4.4/bin/phing /usr/bin/phing`
 
-2) `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear install phing/phing`
+**With Composer**:
 
-3) `sudo ln -s /Applications/MAMP/bin/php/php5.4.4/bin/phing /usr/bin/phing`
+1. curl -sS https://getcomposer.org/installer | php
+2. mv composer.phar /usr/local/bin/composer
+3. `composer install`
 
-With Composer:
+**or**
 
-1) curl -sS https://getcomposer.org/installer | php
-
-2) mv composer.phar /usr/local/bin/composer
-
-3) `composer install`
-
-or
-
-1) Get homebrew and macports
-
-2) Set up composer: https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-
+1. Get homebrew and macports
+2. Set up composer: https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-
 `brew update
 brew tap homebrew/dupes
 brew tap homebrew/php
 brew install composer`
-
-3) `composer install`
+3. `composer install`
 
 
 Workflow
 ========
 
-1) Edit files
-
-2) `$ ./phing build_extension` -> will produce a distro in dist folder
-
-3) `$ ./phing update_repo` -> will copy files to joomla installation folder
-
-4) Generate docs: `$ ./phing doc`
+1. Edit sources files in `pkg_test`
+2. `$ ./phing build_extension` -> will produce a distro in dist folder
+3. `$ ./phing update_repo` -> will copy files to joomla installation folder
+4. Generate docs: `$ ./phing doc`
 
 Useful Links
 ============
