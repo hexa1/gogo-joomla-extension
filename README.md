@@ -6,7 +6,7 @@ Drop your joomla installation into: `joomla3-test.com` directory.
 
 Then run Phing commands (see below) to merge files into dev directories, and build a standalone, installable package file.
 
-### Extension types are provided:
+### Extension types provided:
 
 - **com_test**: Component
 - **mod_admin_test**: Administrative Module
