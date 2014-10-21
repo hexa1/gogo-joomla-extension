@@ -24,7 +24,7 @@ Assuming we are on OSX with MAMP
 
 **All**:
 
-0) `brew install graphviz`
+0. `brew install graphviz`
 
 **No Composer**:
 
