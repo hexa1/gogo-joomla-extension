@@ -42,10 +42,13 @@ Assuming we are on OSX with MAMP
 
 1. Get homebrew and macports
 2. Set up composer: https://getcomposer.org/doc/00-intro.md#globally-on-osx-via-homebrew-
-`brew update
-brew tap homebrew/dupes
-brew tap homebrew/php
-brew install composer`
+
+```
+$ brew update
+$ brew tap homebrew/dupes
+$ brew tap homebrew/php
+$ brew install composer```
+
 3. `composer install`
 
 
