@@ -25,19 +25,23 @@ Assuming we are on OSX with MAMP
 
 All:
 
-) `brew install graphviz`
+0) `brew install graphviz`
 
 No Composer:
 
 1) `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear channel-discover pear.phing.info`
+
 2) `sudo /Applications/MAMP/bin/php/php5.4.4/bin/pear install phing/phing`
+
 3) `sudo ln -s /Applications/MAMP/bin/php/php5.4.4/bin/phing /usr/bin/phing`
 
 With Composer:
 
-) curl -sS https://getcomposer.org/installer | php
-) mv composer.phar /usr/local/bin/composer
-) `composer install`
+1) curl -sS https://getcomposer.org/installer | php
+
+2) mv composer.phar /usr/local/bin/composer
+
+3) `composer install`
 
 or
 
