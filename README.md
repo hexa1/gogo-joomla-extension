@@ -54,8 +54,11 @@ Workflow
 ========
 
 1) Edit files
+
 2) `$ ./phing build_extension` -> will produce a distro in dist folder
+
 3) `$ ./phing update_repo` -> will copy files to joomla installation folder
+
 4) Generate docs: `$ ./phing doc`
 
 Useful Links
